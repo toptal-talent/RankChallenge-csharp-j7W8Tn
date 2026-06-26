@@ -1,0 +1,58 @@
+{
+  "id": "07-left-join",
+  "level": 7,
+  "title": "Keep Everyone",
+  "category": "javascript",
+  "categoryLabel": "SQL",
+  "points": 300,
+  "description": "Welcome to Rank Challenge. The current query hides users who have never ordered. Change it so every user appears even when they have no matching order. Switch the INNER JOIN to a LEFT JOIN (and do not leave an INNER JOIN behind).",
+  "objectives": [
+    "Use LEFT JOIN so unmatched users still appear",
+    "Remove the INNER JOIN"
+  ],
+  "hints": [
+    "A LEFT JOIN keeps every row from the left table, filling missing matches with NULL.",
+    "Make sure no INNER JOIN remains in the query."
+  ],
+  "hintPenalty": 15,
+  "validationType": "text-match",
+  "files": [
+    {
+      "filename": "query.sql",
+      "language": "sql",
+      "editable": true,
+      "content": "-- TODO: include users who have no orders yet, not just those who do\nSELECT u.name, o.id FROM users u INNER JOIN orders o ON o.user_id = u.id;"
+    }
+  ],
+  "validation": {
+    "parseRules": [
+      {
+        "rule": "regex",
+        "pattern": "LEFT\\s+JOIN",
+        "flags": "i",
+        "failMessage": "Use a LEFT JOIN to keep unmatched users.",
+        "description": "Uses LEFT JOIN"
+      },
+      {
+        "rule": "not-regex",
+        "pattern": "INNER\\s+JOIN",
+        "flags": "i",
+        "failMessage": "Remove the INNER JOIN — it drops users without orders.",
+        "description": "No INNER JOIN remains"
+      },
+      {
+        "rule": "contains-string",
+        "value": "ON",
+        "ignoreCase": true,
+        "failMessage": "Keep the ON join condition.",
+        "description": "Keeps the ON condition"
+      }
+    ]
+  },
+  "previewConfig": {
+    "type": "console"
+  },
+  "unlockRequires": [
+    "06-order-limit"
+  ]
+}

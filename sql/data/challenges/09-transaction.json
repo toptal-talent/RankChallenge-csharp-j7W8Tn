@@ -1,0 +1,58 @@
+{
+  "id": "09-transaction",
+  "level": 9,
+  "title": "All or Nothing",
+  "category": "javascript",
+  "categoryLabel": "SQL",
+  "points": 350,
+  "description": "Welcome to Rank Challenge. Moving money between two accounts must happen atomically. Wrap the two UPDATE statements in a transaction so they either both succeed or both fail. Start with BEGIN and finish with COMMIT (you would ROLLBACK on error).",
+  "objectives": [
+    "Open a transaction with BEGIN",
+    "Finish it with COMMIT"
+  ],
+  "hints": [
+    "BEGIN starts a transaction block.",
+    "COMMIT makes every change inside the block permanent at once."
+  ],
+  "hintPenalty": 15,
+  "validationType": "text-match",
+  "files": [
+    {
+      "filename": "query.sql",
+      "language": "sql",
+      "editable": true,
+      "content": "-- TODO: make these two transfers happen as a single all-or-nothing unit\nUPDATE accounts SET balance = balance - 100 WHERE id = 1;\nUPDATE accounts SET balance = balance + 100 WHERE id = 2;"
+    }
+  ],
+  "validation": {
+    "parseRules": [
+      {
+        "rule": "regex",
+        "pattern": "\\bBEGIN\\b",
+        "flags": "i",
+        "failMessage": "Open the transaction with BEGIN.",
+        "description": "Opens a transaction"
+      },
+      {
+        "rule": "contains-string",
+        "value": "COMMIT",
+        "ignoreCase": true,
+        "failMessage": "Finish the transaction with COMMIT.",
+        "description": "Commits the transaction"
+      },
+      {
+        "rule": "contains-string",
+        "value": "WHERE",
+        "ignoreCase": true,
+        "failMessage": "Keep the WHERE clauses on the updates.",
+        "description": "Keeps the row filters"
+      }
+    ]
+  },
+  "previewConfig": {
+    "type": "console"
+  },
+  "unlockRequires": [
+    "08-update-where"
+  ]
+}

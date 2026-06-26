@@ -1,0 +1,58 @@
+{
+  "id": "06-order-limit",
+  "level": 6,
+  "title": "Top Ten Orders",
+  "category": "javascript",
+  "categoryLabel": "SQL",
+  "points": 300,
+  "description": "Welcome to Rank Challenge. Show the ten biggest orders. Return `id` and `total` from `orders`, sorted by `total` from highest to lowest, and limited to 10 rows.",
+  "objectives": [
+    "Sort with ORDER BY ... DESC",
+    "Cap the result with LIMIT 10"
+  ],
+  "hints": [
+    "ORDER BY total DESC sorts from largest to smallest.",
+    "LIMIT 10 keeps only the first ten rows."
+  ],
+  "hintPenalty": 15,
+  "validationType": "text-match",
+  "files": [
+    {
+      "filename": "query.sql",
+      "language": "sql",
+      "editable": true,
+      "content": "-- TODO: show only the ten largest orders, biggest first\nSELECT id, total FROM orders;"
+    }
+  ],
+  "validation": {
+    "parseRules": [
+      {
+        "rule": "regex",
+        "pattern": "ORDER\\s+BY",
+        "flags": "i",
+        "failMessage": "Sort the rows with ORDER BY.",
+        "description": "Sorts with ORDER BY"
+      },
+      {
+        "rule": "contains-string",
+        "value": "DESC",
+        "ignoreCase": true,
+        "failMessage": "Sort from highest to lowest with DESC.",
+        "description": "Sorts descending"
+      },
+      {
+        "rule": "contains-string",
+        "value": "LIMIT",
+        "ignoreCase": true,
+        "failMessage": "Keep only ten rows with LIMIT.",
+        "description": "Limits the rows"
+      }
+    ]
+  },
+  "previewConfig": {
+    "type": "console"
+  },
+  "unlockRequires": [
+    "05-group-by-count"
+  ]
+}

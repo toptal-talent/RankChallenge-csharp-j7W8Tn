@@ -1,0 +1,58 @@
+{
+  "id": "08-update-where",
+  "level": 8,
+  "title": "Update One Row",
+  "category": "javascript",
+  "categoryLabel": "SQL",
+  "points": 350,
+  "description": "Welcome to Rank Challenge. A single account (id 42) needs to be deactivated. The current UPDATE has no WHERE clause, so it would change every user! Add a WHERE clause so only the user with `id = 42` is set to `'inactive'`.",
+  "objectives": [
+    "Keep the UPDATE ... SET statement",
+    "Scope it with WHERE id = 42"
+  ],
+  "hints": [
+    "Without WHERE, UPDATE changes every row in the table.",
+    "WHERE id = 42 targets exactly one account."
+  ],
+  "hintPenalty": 15,
+  "validationType": "text-match",
+  "files": [
+    {
+      "filename": "query.sql",
+      "language": "sql",
+      "editable": true,
+      "content": "-- TODO: make sure only account number 42 is changed, not the whole table\nUPDATE users SET status = 'inactive';"
+    }
+  ],
+  "validation": {
+    "parseRules": [
+      {
+        "rule": "contains-string",
+        "value": "UPDATE",
+        "ignoreCase": true,
+        "failMessage": "Keep the UPDATE statement.",
+        "description": "Uses UPDATE"
+      },
+      {
+        "rule": "contains-string",
+        "value": "SET",
+        "ignoreCase": true,
+        "failMessage": "Set the new status with SET.",
+        "description": "Uses SET"
+      },
+      {
+        "rule": "contains-string",
+        "value": "WHERE",
+        "ignoreCase": true,
+        "failMessage": "Add WHERE so only one row changes.",
+        "description": "Scoped with WHERE"
+      }
+    ]
+  },
+  "previewConfig": {
+    "type": "console"
+  },
+  "unlockRequires": [
+    "07-left-join"
+  ]
+}

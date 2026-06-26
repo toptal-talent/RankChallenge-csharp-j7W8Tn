@@ -1,0 +1,58 @@
+{
+  "id": "02-where-filter",
+  "level": 2,
+  "title": "Filter the Rows",
+  "category": "javascript",
+  "categoryLabel": "SQL",
+  "points": 150,
+  "description": "Welcome to Rank Challenge. Marketing only wants the accounts that are currently active. Extend the query so it returns `id` and `name` from `users` but only the rows where the `status` column equals `'active'`.",
+  "objectives": [
+    "Add a WHERE clause",
+    "Match the status column against the active value"
+  ],
+  "hints": [
+    "WHERE goes after the FROM clause.",
+    "String literals are wrapped in single quotes: 'active'."
+  ],
+  "hintPenalty": 15,
+  "validationType": "text-match",
+  "files": [
+    {
+      "filename": "query.sql",
+      "language": "sql",
+      "editable": true,
+      "content": "-- TODO: only keep the rows whose account state is active\nSELECT id, name FROM users;"
+    }
+  ],
+  "validation": {
+    "parseRules": [
+      {
+        "rule": "contains-string",
+        "value": "WHERE",
+        "ignoreCase": true,
+        "failMessage": "Add a WHERE clause to filter rows.",
+        "description": "Has a WHERE clause"
+      },
+      {
+        "rule": "contains-string",
+        "value": "status",
+        "ignoreCase": true,
+        "failMessage": "Filter on the status column.",
+        "description": "Filters on status"
+      },
+      {
+        "rule": "contains-string",
+        "value": "'active'",
+        "ignoreCase": false,
+        "failMessage": "Compare status to 'active' (in single quotes).",
+        "description": "Matches the active value"
+      }
+    ]
+  },
+  "previewConfig": {
+    "type": "console"
+  },
+  "unlockRequires": [
+    "01-select-basics"
+  ]
+}

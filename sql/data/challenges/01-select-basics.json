@@ -1,0 +1,63 @@
+{
+  "id": "01-select-basics",
+  "level": 1,
+  "title": "Select the Columns",
+  "category": "javascript",
+  "categoryLabel": "SQL",
+  "points": 100,
+  "description": "Welcome to Rank Challenge. The reporting team needs a clean list of users. Write a query that returns the `id`, `name` and `email` columns from the `users` table — and only those columns (no `SELECT *`).",
+  "objectives": [
+    "Use SELECT with the three named columns",
+    "Read from the users table with FROM"
+  ],
+  "hints": [
+    "List the columns explicitly after SELECT, separated by commas.",
+    "Every column query needs a FROM clause naming the table."
+  ],
+  "hintPenalty": 15,
+  "validationType": "text-match",
+  "files": [
+    {
+      "filename": "query.sql",
+      "language": "sql",
+      "editable": true,
+      "content": "-- TODO: return only the id, name and the contact address columns from the right table\nSELECT *;"
+    }
+  ],
+  "validation": {
+    "parseRules": [
+      {
+        "rule": "contains-string",
+        "value": "SELECT",
+        "ignoreCase": true,
+        "failMessage": "Start the query with SELECT.",
+        "description": "Uses SELECT"
+      },
+      {
+        "rule": "contains-string",
+        "value": "FROM",
+        "ignoreCase": true,
+        "failMessage": "Add a FROM clause naming the table.",
+        "description": "Has a FROM clause"
+      },
+      {
+        "rule": "contains-string",
+        "value": "users",
+        "ignoreCase": true,
+        "failMessage": "Query the users table.",
+        "description": "Reads from users"
+      },
+      {
+        "rule": "contains-string",
+        "value": "email",
+        "ignoreCase": true,
+        "failMessage": "Include the email column.",
+        "description": "Selects the email column"
+      }
+    ]
+  },
+  "previewConfig": {
+    "type": "console"
+  },
+  "unlockRequires": []
+}

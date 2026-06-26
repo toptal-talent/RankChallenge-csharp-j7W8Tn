@@ -1,0 +1,298 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R] /Count 8 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Length 851 >>
+stream
+BT /F2 11.0 Tf 0.420 0.450 0.500 rg 224.3 608.0 Td (COMPETITOR GUIDE  -  v1.0.0) Tj ET
+BT /F2 30.0 Tf 0.913 0.270 0.376 rg 165.8 568.6 Td (RANK :: CHALLENGE) Tj ET
+BT /F1 16.0 Tf 0.100 0.100 0.120 rg 224.1 520.6 Td (SQL Query Challenges) Tj ET
+BT /F2 12.0 Tf 0.220 0.550 0.930 rg 150.9 468.2 Td (10 CHALLENGES   -   2,650 POINTS   -   SQL ONLY) Tj ET
+BT /F1 11.0 Tf 0.250 0.270 0.300 rg 100.4 425.4 Td (A progressive, query-writing SQL challenge that takes you from SELECT and) Tj ET
+BT /F1 11.0 Tf 0.250 0.270 0.300 rg 89.2 408.0 Td (WHERE all the way to joins, aggregation, and transactions. Each level unlocks) Tj ET
+BT /F1 11.0 Tf 0.250 0.270 0.300 rg 103.2 390.6 Td (the next. Write the query, earn the points, climb the developer ranking.) Tj ET
+BT /F1 9.0 Tf 0.420 0.450 0.500 rg 211.5 343.2 Td (Generated 2026   -   RANK::CHALLENGE v1.0) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 2672 >>
+stream
+BT /F2 22.0 Tf 0.913 0.270 0.376 rg 56.0 728.0 Td (1) Tj ET
+BT /F2 17.0 Tf 0.080 0.090 0.110 rg 56.0 704.0 Td (What is Rank Challenge?) Tj ET
+0.80 0.80 0.84 RG 0.7 w 56 680.2 m 556 680.2 l S
+BT /F1 10.5 Tf 0 0 0 rg 56.0 668.2 Td (Rank Challenge is a query-writing competition for SQL developers. Every level hands you a) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 653.5 Td (small task against a sample database. Your job is to write the SQL that answers it - and the) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 638.8 Td (platform grades your query automatically.) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 620.1 Td (There are 10 challenges worth a combined 2,650 points. They form a single progression: each) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 605.4 Td (level you solve unlocks the next, and your total score places you on the developer ranking.) Tj ET
+BT /F2 12.0 Tf 0.913 0.270 0.376 rg 56.0 584.7 Td (Every challenge is SQL) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 563.9 Td (The whole track is pure SQL - no application code. You write queries in .sql files inside an) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 549.2 Td (in-browser editor. Topics climb from the fundamentals to real reporting:) Tj ET
+BT /F2 10.5 Tf 0.913 0.270 0.376 rg 56.0 530.5 Td (-) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 70.0 530.5 Td (Fundamentals - SELECT, FROM, WHERE, choosing columns) Tj ET
+BT /F2 10.5 Tf 0.913 0.270 0.376 rg 56.0 513.8 Td (-) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 70.0 513.8 Td (Filtering - AND / OR, parentheses, LIKE and IN) Tj ET
+BT /F2 10.5 Tf 0.913 0.270 0.376 rg 56.0 497.1 Td (-) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 70.0 497.1 Td (Joining - INNER JOIN and LEFT JOIN with ON) Tj ET
+BT /F2 10.5 Tf 0.913 0.270 0.376 rg 56.0 480.4 Td (-) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 70.0 480.4 Td (Aggregation - COUNT, GROUP BY, HAVING) Tj ET
+BT /F2 10.5 Tf 0.913 0.270 0.376 rg 56.0 463.7 Td (-) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 70.0 463.7 Td (Shaping & writing - ORDER BY / LIMIT, UPDATE ... WHERE, transactions) Tj ET
+BT /F2 11.0 Tf 0.220 0.550 0.930 rg 56.0 443.0 Td (You only need to know SQL) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 423.6 Td (No application, server, or front-end knowledge is required. If you can write a SELECT and a) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 408.9 Td (JOIN, you have everything you need.) Tj ET
+BT /F2 11.0 Tf 0 0 0 rg 56.0 386.2 Td (How grading works) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 366.8 Td (When you press Submit, the server checks your query for the clauses that level requires \(for) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 352.1 Td (example: "uses a WHERE clause", "joins with INNER JOIN", "groups with GROUP BY"\). All checks) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 337.4 Td (must pass to clear the level.) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 1814 >>
+stream
+BT /F2 22.0 Tf 0.913 0.270 0.376 rg 56.0 728.0 Td (2) Tj ET
+BT /F2 17.0 Tf 0.080 0.090 0.110 rg 56.0 704.0 Td (Install Node.js) Tj ET
+0.80 0.80 0.84 RG 0.7 w 56 680.2 m 556 680.2 l S
+BT /F1 10.5 Tf 0 0 0 rg 56.0 668.2 Td (Rank Challenge runs on Node.js \(which includes npm\). You need Node 18 or newer; the latest) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 653.5 Td (LTS release is recommended.) Tj ET
+BT /F2 11.0 Tf 0 0 0 rg 56.0 634.8 Td (Step 1 - Check if you already have it) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 615.4 Td (Open a terminal \(Terminal on macOS/Linux, or PowerShell / Command Prompt on Windows\) and run:) Tj ET
+BT /F3 9.2 Tf 0.160 0.180 0.220 rg 64.0 594.7 Td (node -v) Tj ET
+BT /F3 9.2 Tf 0.160 0.180 0.220 rg 64.0 582.1 Td (npm -v) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 563.5 Td (If both print a version \(and node -v is v18 or higher\), you're ready. Otherwise install or) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 548.8 Td (update Node below.) Tj ET
+BT /F2 11.0 Tf 0 0 0 rg 56.0 530.1 Td (Step 2 - Download & install) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 510.7 Td (Official installer \(pick LTS\): https://nodejs.org/en/download) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 492.0 Td (Run the installer, accept the defaults, then reopen your terminal and rerun node -v to) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 477.3 Td (confirm.) Tj ET
+BT /F3 9.2 Tf 0.160 0.180 0.220 rg 64.0 456.6 Td (# macOS \(Homebrew\)) Tj ET
+BT /F3 9.2 Tf 0.160 0.180 0.220 rg 64.0 444.0 Td (brew install node) Tj ET
+BT /F3 9.2 Tf 0.160 0.180 0.220 rg 64.0 431.4 Td (# Windows \(winget\)) Tj ET
+BT /F3 9.2 Tf 0.160 0.180 0.220 rg 64.0 418.8 Td (winget install OpenJS.NodeJS.LTS) Tj ET
+BT /F3 9.2 Tf 0.160 0.180 0.220 rg 64.0 406.2 Td (# Debian / Ubuntu) Tj ET
+BT /F3 9.2 Tf 0.160 0.180 0.220 rg 64.0 393.6 Td (sudo apt-get install -y nodejs npm) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 1683 >>
+stream
+BT /F2 22.0 Tf 0.913 0.270 0.376 rg 56.0 728.0 Td (3) Tj ET
+BT /F2 17.0 Tf 0.080 0.090 0.110 rg 56.0 704.0 Td (Run the Challenge) Tj ET
+0.80 0.80 0.84 RG 0.7 w 56 680.2 m 556 680.2 l S
+BT /F1 10.5 Tf 0 0 0 rg 56.0 668.2 Td (With Node installed, you start the platform from the project folder in three commands.) Tj ET
+BT /F2 11.0 Tf 0 0 0 rg 56.0 649.5 Td (Step 1 - Open the project) Tj ET
+BT /F3 9.2 Tf 0.160 0.180 0.220 rg 64.0 628.1 Td (cd path/to/sql) Tj ET
+BT /F2 11.0 Tf 0 0 0 rg 56.0 609.5 Td (Step 2 - Install dependencies \(first time only\)) Tj ET
+BT /F3 9.2 Tf 0.160 0.180 0.220 rg 64.0 588.1 Td (npm install) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 569.5 Td (This installs the frontend and backend packages \(npm workspaces\). It only needs to be done) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 554.8 Td (once.) Tj ET
+BT /F2 11.0 Tf 0 0 0 rg 56.0 536.1 Td (Step 3 - Start it) Tj ET
+BT /F3 9.2 Tf 0.160 0.180 0.220 rg 64.0 514.7 Td (npm run dev) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 496.1 Td (This launches the frontend \(http://localhost:5173\) and the backend \(http://localhost:3001\)) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 481.4 Td (together.) Tj ET
+BT /F2 11.0 Tf 0 0 0 rg 56.0 462.7 Td (Step 4 - Open & log in) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 443.3 Td (Open http://localhost:5173, click Continue, then enter your 6-digit access code. A successful) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 428.6 Td (login starts a 1-hour session.) Tj ET
+BT /F1 10.5 Tf 0.420 0.450 0.500 rg 56.0 409.9 Td (Login codes are issued by the 2FA service your organiser runs \(http://localhost:3000\). Each) Tj ET
+BT /F1 10.5 Tf 0.420 0.450 0.500 rg 56.0 395.2 Td (code is single-use and expires quickly.) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 3727 >>
+stream
+BT /F2 22.0 Tf 0.913 0.270 0.376 rg 56.0 728.0 Td (4) Tj ET
+BT /F2 17.0 Tf 0.080 0.090 0.110 rg 56.0 704.0 Td (The 10 Challenges) Tj ET
+0.80 0.80 0.84 RG 0.7 w 56 680.2 m 556 680.2 l S
+BT /F1 10.5 Tf 0 0 0 rg 56.0 668.2 Td (All ten levels are SQL. Solve them in order - each unlocks the next.) Tj ET
+BT /F2 9.5 Tf 0.420 0.450 0.500 rg 56.0 647.5 Td (#) Tj ET
+BT /F2 9.5 Tf 0.420 0.450 0.500 rg 86.0 647.5 Td (TITLE) Tj ET
+BT /F2 9.5 Tf 0.420 0.450 0.500 rg 252.0 647.5 Td (WHAT YOU'LL FIX) Tj ET
+BT /F2 9.5 Tf 0.420 0.450 0.500 rg 510.0 647.5 Td (POINTS) Tj ET
+0.80 0.80 0.84 RG 0.7 w 56 643.5 m 556 643.5 l S
+BT /F2 9.8 Tf 0.913 0.270 0.376 rg 56.0 633.5 Td (01) Tj ET
+BT /F1 9.8 Tf 0.100 0.100 0.120 rg 86.0 633.5 Td (Select the Columns) Tj ET
+BT /F1 9.5 Tf 0.300 0.320 0.360 rg 252.0 633.5 Td (SELECT specific columns with FROM) Tj ET
+BT /F2 9.8 Tf 0.100 0.100 0.120 rg 510.0 633.5 Td (100) Tj ET
+BT /F2 9.8 Tf 0.913 0.270 0.376 rg 56.0 617.5 Td (02) Tj ET
+BT /F1 9.8 Tf 0.100 0.100 0.120 rg 86.0 617.5 Td (Filter the Rows) Tj ET
+BT /F1 9.5 Tf 0.300 0.320 0.360 rg 252.0 617.5 Td (Add a WHERE clause) Tj ET
+BT /F2 9.8 Tf 0.100 0.100 0.120 rg 510.0 617.5 Td (150) Tj ET
+BT /F2 9.8 Tf 0.913 0.270 0.376 rg 56.0 601.5 Td (03) Tj ET
+BT /F1 9.8 Tf 0.100 0.100 0.120 rg 86.0 601.5 Td (Combine Conditions) Tj ET
+BT /F1 9.5 Tf 0.300 0.320 0.360 rg 252.0 601.5 Td (AND / OR with parentheses) Tj ET
+BT /F2 9.8 Tf 0.100 0.100 0.120 rg 510.0 601.5 Td (200) Tj ET
+BT /F2 9.8 Tf 0.913 0.270 0.376 rg 56.0 585.5 Td (04) Tj ET
+BT /F1 9.8 Tf 0.100 0.100 0.120 rg 86.0 585.5 Td (Join Two Tables) Tj ET
+BT /F1 9.5 Tf 0.300 0.320 0.360 rg 252.0 585.5 Td (INNER JOIN ... ON) Tj ET
+BT /F2 9.8 Tf 0.100 0.100 0.120 rg 510.0 585.5 Td (250) Tj ET
+BT /F2 9.8 Tf 0.913 0.270 0.376 rg 56.0 569.5 Td (05) Tj ET
+BT /F1 9.8 Tf 0.100 0.100 0.120 rg 86.0 569.5 Td (Count per Group) Tj ET
+BT /F1 9.5 Tf 0.300 0.320 0.360 rg 252.0 569.5 Td (COUNT\(\) with GROUP BY) Tj ET
+BT /F2 9.8 Tf 0.100 0.100 0.120 rg 510.0 569.5 Td (250) Tj ET
+BT /F2 9.8 Tf 0.913 0.270 0.376 rg 56.0 553.5 Td (06) Tj ET
+BT /F1 9.8 Tf 0.100 0.100 0.120 rg 86.0 553.5 Td (Top Ten Orders) Tj ET
+BT /F1 9.5 Tf 0.300 0.320 0.360 rg 252.0 553.5 Td (ORDER BY DESC + LIMIT) Tj ET
+BT /F2 9.8 Tf 0.100 0.100 0.120 rg 510.0 553.5 Td (300) Tj ET
+BT /F2 9.8 Tf 0.913 0.270 0.376 rg 56.0 537.5 Td (07) Tj ET
+BT /F1 9.8 Tf 0.100 0.100 0.120 rg 86.0 537.5 Td (Keep Everyone) Tj ET
+BT /F1 9.5 Tf 0.300 0.320 0.360 rg 252.0 537.5 Td (Switch to a LEFT JOIN) Tj ET
+BT /F2 9.8 Tf 0.100 0.100 0.120 rg 510.0 537.5 Td (300) Tj ET
+BT /F2 9.8 Tf 0.913 0.270 0.376 rg 56.0 521.5 Td (08) Tj ET
+BT /F1 9.8 Tf 0.100 0.100 0.120 rg 86.0 521.5 Td (Update One Row) Tj ET
+BT /F1 9.5 Tf 0.300 0.320 0.360 rg 252.0 521.5 Td (UPDATE ... SET ... WHERE) Tj ET
+BT /F2 9.8 Tf 0.100 0.100 0.120 rg 510.0 521.5 Td (350) Tj ET
+BT /F2 9.8 Tf 0.913 0.270 0.376 rg 56.0 505.5 Td (09) Tj ET
+BT /F1 9.8 Tf 0.100 0.100 0.120 rg 86.0 505.5 Td (All or Nothing) Tj ET
+BT /F1 9.5 Tf 0.300 0.320 0.360 rg 252.0 505.5 Td (Wrap writes in BEGIN / COMMIT) Tj ET
+BT /F2 9.8 Tf 0.100 0.100 0.120 rg 510.0 505.5 Td (350) Tj ET
+BT /F2 9.8 Tf 0.913 0.270 0.376 rg 56.0 489.5 Td (10) Tj ET
+BT /F1 9.8 Tf 0.100 0.100 0.120 rg 86.0 489.5 Td (Top Customers Report) Tj ET
+BT /F1 9.5 Tf 0.300 0.320 0.360 rg 252.0 489.5 Td (JOIN + GROUP BY + HAVING + ORDER BY) Tj ET
+BT /F2 9.8 Tf 0.100 0.100 0.120 rg 510.0 489.5 Td (400) Tj ET
+BT /F2 11.0 Tf 0.220 0.550 0.930 rg 56.0 465.5 Td (Each level tells you exactly what to do) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 446.1 Td (Every challenge has a description, a list of objectives, and optional hints. The objectives) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 431.4 Td (map directly to the checks the grader runs.) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 14 0 R >>
+endobj
+16 0 obj
+<< /Length 1592 >>
+stream
+BT /F2 22.0 Tf 0.913 0.270 0.376 rg 56.0 728.0 Td (5) Tj ET
+BT /F2 17.0 Tf 0.080 0.090 0.110 rg 56.0 704.0 Td (Scoring & Rules) Tj ET
+0.80 0.80 0.84 RG 0.7 w 56 680.2 m 556 680.2 l S
+BT /F2 11.0 Tf 0 0 0 rg 56.0 668.2 Td (Points) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 648.8 Td (Each level is worth the points shown above, from 100 \(Level 01\) up to 400 \(the finale\) -) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 634.1 Td (2,650 in total. Points are banked the moment all of a level's checks pass.) Tj ET
+BT /F2 11.0 Tf 0 0 0 rg 56.0 615.4 Td (Hints cost points) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 596.0 Td (Revealing a hint subtracts a fixed penalty from that level's score \(around 15 points\). Use) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 581.3 Td (them only when stuck.) Tj ET
+BT /F2 11.0 Tf 0 0 0 rg 56.0 562.6 Td (Unlock chain) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 543.2 Td (Levels unlock in sequence: clear Level 01 to open Level 02, and so on to the finale. Your) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 528.5 Td (progress is saved within your session.) Tj ET
+BT /F2 11.0 Tf 0 0 0 rg 56.0 509.8 Td (Session window) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 490.4 Td (A login is valid for 1 hour. When the timer in the top bar runs out you return to the login) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 475.7 Td (screen and need a new code.) Tj ET
+BT /F2 11.0 Tf 0 0 0 rg 56.0 457.0 Td (Submission limit) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 437.6 Td (Submissions are rate-limited to 20 per minute to keep things fair - no penalty, you just wait) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 422.9 Td (a moment if you hit it.) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 16 0 R >>
+endobj
+18 0 obj
+<< /Length 1847 >>
+stream
+BT /F2 22.0 Tf 0.913 0.270 0.376 rg 56.0 728.0 Td (6) Tj ET
+BT /F2 17.0 Tf 0.080 0.090 0.110 rg 56.0 704.0 Td (The Interface & Finishing) Tj ET
+0.80 0.80 0.84 RG 0.7 w 56 680.2 m 556 680.2 l S
+BT /F2 11.0 Tf 0 0 0 rg 56.0 668.2 Td (Top bar) Tj ET
+BT /F2 10.5 Tf 0.913 0.270 0.376 rg 56.0 648.8 Td (-) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 70.0 648.8 Td (Server status - confirms the backend is reachable) Tj ET
+BT /F2 10.5 Tf 0.913 0.270 0.376 rg 56.0 632.1 Td (-) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 70.0 632.1 Td (Session timer - time left in your 1-hour window) Tj ET
+BT /F2 10.5 Tf 0.913 0.270 0.376 rg 56.0 615.4 Td (-) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 70.0 615.4 Td (Score & progress - your points and solved/total count) Tj ET
+BT /F2 10.5 Tf 0.913 0.270 0.376 rg 56.0 598.7 Td (-) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 70.0 598.7 Td (Challenge Map - jump back to the level grid) Tj ET
+BT /F2 10.5 Tf 0.913 0.270 0.376 rg 56.0 582.0 Td (-) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 70.0 582.0 Td (Finish - end your attempt) Tj ET
+BT /F2 11.0 Tf 0 0 0 rg 56.0 563.3 Td (Editor & results) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 543.9 Td (The left panel is the query editor \(your .sql file\). The right panel is a results console -) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 529.2 Td (press Submit to grade your query and see which checks passed.) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 510.5 Td (Use Submit to grade your answer, Hint to reveal a hint \(costs points\), and Reset to restore) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 495.8 Td (the original starter query \(.sql file\).) Tj ET
+BT /F2 11.0 Tf 0 0 0 rg 56.0 475.1 Td (Finishing the challenge) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 455.7 Td (When you're done, press Finish in the top bar to see a summary of how many levels you solved) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 56.0 441.0 Td (and your final score, then confirm to end the session.) Tj ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 18 0 R >>
+endobj
+20 0 obj
+<< /Length 1722 >>
+stream
+BT /F2 22.0 Tf 0.913 0.270 0.376 rg 56.0 728.0 Td (7) Tj ET
+BT /F2 17.0 Tf 0.080 0.090 0.110 rg 56.0 704.0 Td (Tips & Quick Reference) Tj ET
+0.80 0.80 0.84 RG 0.7 w 56 680.2 m 556 680.2 l S
+BT /F2 11.0 Tf 0 0 0 rg 56.0 668.2 Td (Strategy) Tj ET
+BT /F2 10.5 Tf 0.913 0.270 0.376 rg 56.0 648.8 Td (-) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 70.0 648.8 Td (Read the objectives first - they mirror exactly what the grader checks.) Tj ET
+BT /F2 10.5 Tf 0.913 0.270 0.376 rg 56.0 632.1 Td (-) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 70.0 632.1 Td (Remember SQL keywords are case-insensitive - SELECT or select both work.) Tj ET
+BT /F2 10.5 Tf 0.913 0.270 0.376 rg 56.0 615.4 Td (-) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 70.0 615.4 Td (Save hints for later - try the fix yourself first; hints cost points.) Tj ET
+BT /F2 10.5 Tf 0.913 0.270 0.376 rg 56.0 598.7 Td (-) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 70.0 598.7 Td (Submit early, submit often - failed checks tell you what's still wrong.) Tj ET
+BT /F2 10.5 Tf 0.913 0.270 0.376 rg 56.0 582.0 Td (-) Tj ET
+BT /F1 10.5 Tf 0 0 0 rg 70.0 582.0 Td (Reset if you get lost - it brings back the original starter.) Tj ET
+BT /F2 11.0 Tf 0 0 0 rg 56.0 561.3 Td (Quick command reference) Tj ET
+BT /F3 9.2 Tf 0.160 0.180 0.220 rg 64.0 539.9 Td (node -v          # check Node version \(need 18+\)) Tj ET
+BT /F3 9.2 Tf 0.160 0.180 0.220 rg 64.0 527.3 Td (npm install      # one-time dependency install) Tj ET
+BT /F3 9.2 Tf 0.160 0.180 0.220 rg 64.0 514.7 Td (npm run dev      # start frontend + backend) Tj ET
+BT /F3 9.2 Tf 0.160 0.180 0.220 rg 64.0 502.1 Td (Ctrl + C         # stop both servers) Tj ET
+BT /F2 11.0 Tf 0.913 0.270 0.376 rg 56.0 477.5 Td (Good luck - fix the queries, earn the points, climb the ranking.) Tj ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 20 0 R >>
+endobj
+xref
+0 22
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000169 00000 n 
+0000000239 00000 n 
+0000000314 00000 n 
+0000000382 00000 n 
+0000001284 00000 n 
+0000001430 00000 n 
+0000004154 00000 n 
+0000004300 00000 n 
+0000006167 00000 n 
+0000006315 00000 n 
+0000008051 00000 n 
+0000008199 00000 n 
+0000011979 00000 n 
+0000012127 00000 n 
+0000013772 00000 n 
+0000013920 00000 n 
+0000015820 00000 n 
+0000015968 00000 n 
+0000017743 00000 n 
+trailer
+<< /Size 22 /Root 1 0 R >>
+startxref
+17891
+%%EOF

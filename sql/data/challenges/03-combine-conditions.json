@@ -1,0 +1,65 @@
+{
+  "id": "03-combine-conditions",
+  "level": 3,
+  "title": "Combine Conditions",
+  "category": "javascript",
+  "categoryLabel": "SQL",
+  "points": 200,
+  "description": "Welcome to Rank Challenge. Sales wants active users from a couple of key regions. Return `id`, `name` and `country` from `users` where the account is active **AND** the country is either `'US'` **OR** `'CA'`. Use parentheses so the OR is grouped correctly.",
+  "objectives": [
+    "Use WHERE with AND and OR",
+    "Group the OR conditions with parentheses"
+  ],
+  "hints": [
+    "Combine boolean conditions with the AND and OR keywords.",
+    "Wrap the two country options in parentheses so AND binds correctly."
+  ],
+  "hintPenalty": 15,
+  "validationType": "text-match",
+  "files": [
+    {
+      "filename": "query.sql",
+      "language": "sql",
+      "editable": true,
+      "content": "-- TODO: keep active accounts located in either of the two target regions\nSELECT id, name, country FROM users;"
+    }
+  ],
+  "validation": {
+    "parseRules": [
+      {
+        "rule": "contains-string",
+        "value": "WHERE",
+        "ignoreCase": true,
+        "failMessage": "Add a WHERE clause.",
+        "description": "Has a WHERE clause"
+      },
+      {
+        "rule": "regex",
+        "pattern": "\\bAND\\b",
+        "flags": "i",
+        "failMessage": "Combine the conditions with AND.",
+        "description": "Uses AND"
+      },
+      {
+        "rule": "regex",
+        "pattern": "\\bOR\\b",
+        "flags": "i",
+        "failMessage": "Offer the two regions with OR.",
+        "description": "Uses OR"
+      },
+      {
+        "rule": "contains-string",
+        "value": "country",
+        "ignoreCase": true,
+        "failMessage": "Filter on the country column.",
+        "description": "Filters on country"
+      }
+    ]
+  },
+  "previewConfig": {
+    "type": "console"
+  },
+  "unlockRequires": [
+    "02-where-filter"
+  ]
+}

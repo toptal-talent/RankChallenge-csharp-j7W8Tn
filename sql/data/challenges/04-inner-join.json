@@ -1,0 +1,65 @@
+{
+  "id": "04-inner-join",
+  "level": 4,
+  "title": "Join Two Tables",
+  "category": "javascript",
+  "categoryLabel": "SQL",
+  "points": 250,
+  "description": "Welcome to Rank Challenge. The finance team needs each order shown next to the buyer's name. Join `users` and `orders` so the result has the user `name` and the order `total`. Match `orders.user_id` to `users.id` with an INNER JOIN.",
+  "objectives": [
+    "INNER JOIN users with orders",
+    "Match the rows with an ON condition"
+  ],
+  "hints": [
+    "INNER JOIN combines rows that match in both tables.",
+    "The ON clause states how the two tables relate: orders.user_id = users.id."
+  ],
+  "hintPenalty": 15,
+  "validationType": "text-match",
+  "files": [
+    {
+      "filename": "query.sql",
+      "language": "sql",
+      "editable": true,
+      "content": "-- TODO: bring in each buyer name alongside the order amount from the other table\nSELECT total FROM orders;"
+    }
+  ],
+  "validation": {
+    "parseRules": [
+      {
+        "rule": "regex",
+        "pattern": "\\bJOIN\\b",
+        "flags": "i",
+        "failMessage": "Combine the tables with a JOIN.",
+        "description": "Uses a JOIN"
+      },
+      {
+        "rule": "contains-string",
+        "value": "ON",
+        "ignoreCase": true,
+        "failMessage": "State the relationship with ON.",
+        "description": "Has an ON condition"
+      },
+      {
+        "rule": "contains-string",
+        "value": "users",
+        "ignoreCase": true,
+        "failMessage": "Join against the users table.",
+        "description": "Includes the users table"
+      },
+      {
+        "rule": "contains-string",
+        "value": "orders",
+        "ignoreCase": true,
+        "failMessage": "Select from the orders table.",
+        "description": "Includes the orders table"
+      }
+    ]
+  },
+  "previewConfig": {
+    "type": "console"
+  },
+  "unlockRequires": [
+    "03-combine-conditions"
+  ]
+}

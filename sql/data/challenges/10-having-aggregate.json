@@ -1,0 +1,65 @@
+{
+  "id": "10-having-aggregate",
+  "level": 10,
+  "title": "Top Customers Report",
+  "category": "javascript",
+  "categoryLabel": "SQL",
+  "points": 400,
+  "description": "Welcome to Rank Challenge — the finale. Build a report of the best customers. Join `users` and `orders`, group by the user `name`, and show the order count and total spend. Keep only customers with more than 5 orders using HAVING, and sort by spend from highest to lowest.",
+  "objectives": [
+    "JOIN users and orders and GROUP BY name",
+    "Filter groups with HAVING and sort with ORDER BY"
+  ],
+  "hints": [
+    "HAVING filters groups after aggregation (WHERE filters rows before).",
+    "Aggregate with COUNT and SUM, then ORDER BY the total spend DESC."
+  ],
+  "hintPenalty": 15,
+  "validationType": "text-match",
+  "files": [
+    {
+      "filename": "query.sql",
+      "language": "sql",
+      "editable": true,
+      "content": "-- TODO: report each customer's order count and spend, but only the loyal ones, best first\nSELECT u.name FROM users u, orders o;"
+    }
+  ],
+  "validation": {
+    "parseRules": [
+      {
+        "rule": "regex",
+        "pattern": "\\bJOIN\\b",
+        "flags": "i",
+        "failMessage": "Join users with orders.",
+        "description": "Joins the tables"
+      },
+      {
+        "rule": "regex",
+        "pattern": "GROUP\\s+BY",
+        "flags": "i",
+        "failMessage": "Group the rows per customer with GROUP BY.",
+        "description": "Groups the rows"
+      },
+      {
+        "rule": "contains-string",
+        "value": "HAVING",
+        "ignoreCase": true,
+        "failMessage": "Keep only loyal customers with HAVING.",
+        "description": "Filters groups with HAVING"
+      },
+      {
+        "rule": "regex",
+        "pattern": "ORDER\\s+BY",
+        "flags": "i",
+        "failMessage": "Sort the report with ORDER BY.",
+        "description": "Sorts the report"
+      }
+    ]
+  },
+  "previewConfig": {
+    "type": "console"
+  },
+  "unlockRequires": [
+    "09-transaction"
+  ]
+}

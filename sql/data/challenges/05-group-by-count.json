@@ -1,0 +1,58 @@
+{
+  "id": "05-group-by-count",
+  "level": 5,
+  "title": "Count per Group",
+  "category": "javascript",
+  "categoryLabel": "SQL",
+  "points": 250,
+  "description": "Welcome to Rank Challenge. Leadership wants to know how many orders each customer has placed. Return the `user_id` and the number of orders per user from the `orders` table, using COUNT and GROUP BY.",
+  "objectives": [
+    "Aggregate rows with COUNT",
+    "Collapse them per user with GROUP BY"
+  ],
+  "hints": [
+    "COUNT(*) counts the rows in each group.",
+    "GROUP BY user_id makes one row per user."
+  ],
+  "hintPenalty": 15,
+  "validationType": "text-match",
+  "files": [
+    {
+      "filename": "query.sql",
+      "language": "sql",
+      "editable": true,
+      "content": "-- TODO: produce one row per customer with how many orders they have placed\nSELECT user_id FROM orders;"
+    }
+  ],
+  "validation": {
+    "parseRules": [
+      {
+        "rule": "regex",
+        "pattern": "COUNT\\s*\\(",
+        "flags": "i",
+        "failMessage": "Count the rows with COUNT(...).",
+        "description": "Uses COUNT()"
+      },
+      {
+        "rule": "regex",
+        "pattern": "GROUP\\s+BY",
+        "flags": "i",
+        "failMessage": "Collapse rows per user with GROUP BY.",
+        "description": "Uses GROUP BY"
+      },
+      {
+        "rule": "contains-string",
+        "value": "user_id",
+        "ignoreCase": true,
+        "failMessage": "Group on the user_id column.",
+        "description": "Groups by user_id"
+      }
+    ]
+  },
+  "previewConfig": {
+    "type": "console"
+  },
+  "unlockRequires": [
+    "04-inner-join"
+  ]
+}
